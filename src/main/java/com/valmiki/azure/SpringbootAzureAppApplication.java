@@ -12,7 +12,7 @@ public class SpringbootAzureAppApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "First Spring boot application";
+		return "Congrats! your app deployed successfully in Azure !";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAzureAppApplication.class, args);
